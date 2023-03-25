@@ -1,0 +1,57 @@
+.header {
+	height: 150px;
+}
+
+.header div {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.advertisement {
+	width: 100px;
+	height: 150px;
+	border-color: black;
+	border-width: 2px;
+	background-color: gray;
+	color: black;
+	font-weight: bold;
+}
+
+#unilogo {
+	height: 150px;
+}
+
+#facultyspan {
+	color: #869fa6;
+}
+
+#departmentspan {
+	font-weight: bolder;
+	color: #006469;
+}
+
+.article {
+	width: 70%;
+	text-align: justify;
+}
+
+.article img {
+	width: 250px;
+	margin: 15px;
+}
+
+.footer {
+	margin-top: 50px;
+}
+
+.float-left {
+	float: left;
+}
+
+.center {
+	margin: auto;
+}
+
+.center-text {
+	text-align: center;
+}
