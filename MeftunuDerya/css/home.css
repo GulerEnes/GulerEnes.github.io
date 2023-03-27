@@ -1,0 +1,29 @@
+#home-photo img {
+	width: 100%;
+}
+
+p {
+	text-indent: 50px;
+	text-align: justify;
+}
+
+.FAQ-box {
+	background-color: rgb(83, 127, 231);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.FAQ-head {
+	padding: 15px;
+	margin-bottom: 0px;
+}
+.FAQ-head:hover + .FAQ-content {
+	display: block;
+}
+.FAQ-content {
+	display: none;
+	padding: 15px;
+	background-color: rgb(149, 181, 255);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}

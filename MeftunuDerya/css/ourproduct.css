@@ -1,0 +1,9 @@
+#product img {
+	width: 100%;
+}
+
+#product h1,
+h3,
+p {
+	text-align: center;
+}

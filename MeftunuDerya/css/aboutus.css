@@ -1,0 +1,27 @@
+.cards-container {
+	padding-top: 30px;
+}
+.cards {
+	margin: 10px;
+	text-align: center;
+}
+
+.card {
+	display: inline-block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 200px;
+	height: 320px;
+	font-family: Lato-Regular;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 10px;
+	background-color: rgb(69, 146, 175);
+}
+
+.card-name {
+	font-size: 20px;
+}
+.card-title {
+	color: whitesmoke;
+	font-size: 15px;
+}
