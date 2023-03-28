@@ -7,6 +7,15 @@ p {
 	text-indent: 50px;
 	text-align: justify;
 }
+.some-images {
+	text-align: center;
+}
+.some-images img {
+	max-width: 40%;
+	display: block;
+	margin: auto;
+	padding: 5px;
+}
 
 /* Frequently asked question boxes */
 .FAQ-box {
