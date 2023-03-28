@@ -1,3 +1,6 @@
+/* This section is shared for all pages to use with class parameters */
+
+/* Custom font specifications */
 @font-face {
 	font-family: Lato-Bold;
 	src: url(../Lato/Lato-Bold.ttf);
@@ -7,6 +10,15 @@
 	font-family: Lato-Regular;
 	src: url(../Lato/Lato-Regular.ttf);
 }
+
+.font-lato-bold {
+	font-family: Lato-Bold;
+}
+
+.font-lato-regular {
+	font-family: Lato-Regular;
+}
+/* Custom font specifications end */
 
 body {
 	margin: 0px;
@@ -45,12 +57,4 @@ body {
 	margin: auto;
 	margin-top: 55px;
 	margin-bottom: 0px;
-}
-
-.font-lato-bold {
-	font-family: Lato-Bold;
-}
-
-.font-lato-regular {
-	font-family: Lato-Regular;
 }

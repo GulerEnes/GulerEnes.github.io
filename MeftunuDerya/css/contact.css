@@ -1,3 +1,6 @@
+/* This section is specific for contact page */
+
+/* Form elements design section */
 form {
 	margin: 50px 0px;
 	padding: 20px;
@@ -27,7 +30,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
 	background-color: rgb(19, 75, 124);
 }
+/* Form elements design section end */
 
+/* Google Map element */
 .map iframe {
 	margin-top: 60px;
 	width: 100%;
