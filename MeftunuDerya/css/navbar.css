@@ -39,6 +39,7 @@ nav ul li {
 }
 .fixed-nav a {
 	color: rgb(10, 38, 71);
+	text-decoration: none;
 }
 .fixed-nav a:hover {
 	color: rgb(32, 82, 149);
