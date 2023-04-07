@@ -1,0 +1,30 @@
+form div label {
+	display: inline-block;
+	width: 70px;
+	margin: 10px;
+}
+form div input[type="text"],
+input[type="password"],
+select {
+	display: inline-block;
+	width: 200px;
+	margin: 10px;
+}
+
+form div input[type="radio"],
+input[type="checkbox"] {
+	display: inline-block;
+
+	margin: 10px;
+}
+
+form div textarea {
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	margin: 10px;
+}
+
+form button {
+	margin-left: 100px;
+}
