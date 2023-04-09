@@ -1,0 +1,28 @@
+form .row {
+	padding: 4px;
+}
+
+form .left {
+	width: 250px;
+	display: inline-block;
+}
+
+form .left input {
+	font-size: 15px;
+}
+
+form .left label {
+	width: 50px;
+	display: inline-block;
+}
+
+form .right {
+	width: 250px;
+	display: inline-block;
+}
+
+form button {
+	margin: 10px;
+	margin-left: 375px;
+	padding: 5px;
+}
