@@ -3,6 +3,7 @@
 	width: 100%;
 	position: fixed;
 	top: 0px;
+	z-index: 99999;
 }
 
 /* left side of navbar */

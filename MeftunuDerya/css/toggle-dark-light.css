@@ -1,0 +1,23 @@
+.toggle-dark-light {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	width: 64px;
+	height: 64px;
+	z-index: 9998;
+	cursor: pointer;
+	text-decoration: none;
+	transition: opacity 0.2s ease-out;
+
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}
+
+.toggle-dark-light:hover {
+	opacity: 0.7;
+}
+
+.toggle-dark-light i {
+	margin-top: 10px;
+}

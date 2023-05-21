@@ -30,6 +30,15 @@ body {
 		rgb(233, 248, 249)
 	);
 }
+/*
+background: linear-gradient(
+		0.25turn,
+		rgb(233, 248, 249),
+		rgb(165, 191, 252),
+		rgb(165, 191, 252),
+		rgb(233, 248, 249)
+	);
+*/
 
 .float-left {
 	float: left;
