@@ -1,0 +1,65 @@
+{
+    "team_members": [
+      {
+        "full_name": "Enes Güler",
+        "twitter_link": "https://twitter.com/lorem_ipsum",
+        "instagram_link": "https://www.instagram.com/lorem_ipsum",
+        "university": "Yıldırım Beyazıt University"
+      },
+      {
+        "full_name": "Hüseyin Arslan",
+        "twitter_link": "https://twitter.com/lorem_ipsum",
+        "instagram_link": "https://www.instagram.com/lorem_ipsum",
+        "university": "Yıldırım Beyazıt University"
+      },
+      {
+        "full_name": "Baran Yücecengiz",
+        "twitter_link": "https://twitter.com/lorem_ipsum",
+        "instagram_link": "https://www.instagram.com/lorem_ipsum",
+        "university": "Yıldırım Beyazıt University"
+      },
+      {
+        "full_name": "Hikmet Can Kara",
+        "twitter_link": "https://twitter.com/lorem_ipsum",
+        "instagram_link": "https://www.instagram.com/lorem_ipsum",
+        "university": "Gazi University"
+      },
+      {
+        "full_name": "Harun Çevik",
+        "twitter_link": "https://twitter.com/lorem_ipsum",
+        "instagram_link": "https://www.instagram.com/lorem_ipsum",
+        "university": "Gazi University"
+      },
+      {
+        "full_name": "A. Furkan Gürsoy",
+        "twitter_link": "https://twitter.com/lorem_ipsum",
+        "instagram_link": "https://www.instagram.com/lorem_ipsum",
+        "university": "METU"
+      },
+      {
+        "full_name": "Enes Dağ",
+        "twitter_link": "https://twitter.com/lorem_ipsum",
+        "instagram_link": "https://www.instagram.com/lorem_ipsum",
+        "university": "Gazi University"
+      },
+      {
+        "full_name": "Cihat K. Kalkan",
+        "twitter_link": "https://twitter.com/lorem_ipsum",
+        "instagram_link": "https://www.instagram.com/lorem_ipsum",
+        "university": "Yıldırım Beyazıt University"
+      },
+      {
+        "full_name": "M. Ceyhun Kalkan",
+        "twitter_link": "https://twitter.com/lorem_ipsum",
+        "instagram_link": "https://www.instagram.com/lorem_ipsum",
+        "university": "Karabük University"
+      },
+      {
+        "full_name": "Fatih Demir",
+        "twitter_link": "https://twitter.com/lorem_ipsum",
+        "instagram_link": "https://www.instagram.com/lorem_ipsum",
+        "university": "Yıldırım Beyazıt University"
+      }
+    ]
+  }
+  
