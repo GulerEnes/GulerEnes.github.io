@@ -13,8 +13,11 @@ $(document).ready(function() {
         });
   
         if (teamMember) {
-          // Update the test-div with the team member's name and Twitter link
-          $("#social-media-links").text("" + teamMember.full_name + "<br> <i class=\"fas fa-location-dot\"></i> Twitter: <a>" + teamMember.twitter_link + "</a>" + "<br> <i class=\"fas fa-location-dot\"></i> Instagram: <a>" + teamMember.instagram_link + "</a>");
+          // Update the test-div with the team member's name, Twitter link, and Instagram link
+            var twitterLink = $("<a>").attr("href", teamMember.twitter_link).text("Twitter Link");
+            var instagramLink = $("<a>").attr("href", teamMember.instagram_link).text("Instagram Link");
+            
+            $("#test-div").html("Name: " + teamMember.full_name + "<br>Twitter: ").append(twitterLink).append("<br>Instagram: ").append(instagramLink);
         }
       });
     });
