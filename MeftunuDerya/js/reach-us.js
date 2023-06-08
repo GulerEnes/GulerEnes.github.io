@@ -14,7 +14,7 @@ $(document).ready(function() {
   
         if (teamMember) {
           // Update the test-div with the team member's name and Twitter link
-          $("#social-media-links").text("Name: " + teamMember.full_name + ", Twitter: " + teamMember.twitter_link);
+          $("#social-media-links").text("" + teamMember.full_name + "<br> <i class=\"fas fa-location-dot\"></i> Twitter: <a>" + teamMember.twitter_link + "</a>" + "<br> <i class=\"fas fa-location-dot\"></i> Instagram: <a>" + teamMember.instagram_link + "</a>");
         }
       });
     });
