@@ -17,7 +17,7 @@ $(document).ready(function() {
             var twitterLink = $("<a>").attr("href", teamMember.twitter_link).text("Twitter Link");
             var instagramLink = $("<a>").attr("href", teamMember.instagram_link).text("Instagram Link");
             
-            $("#test-div").html("Name: " + teamMember.full_name + "<br>Twitter: ").append(twitterLink).append("<br>Instagram: ").append(instagramLink);
+            $("#social-media-links").html("Name: " + teamMember.full_name + "<br>Twitter: ").append(twitterLink).append("<br>Instagram: ").append(instagramLink);
         }
       });
     });
