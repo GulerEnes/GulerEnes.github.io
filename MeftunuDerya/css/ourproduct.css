@@ -5,6 +5,17 @@
 
 #product h1,
 h3,
-p {
+h4,
+p,
+button {
 	text-align: center;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+}
+
+.button-container button {
+	margin: 0 10px; /* Optional spacing between buttons */
 }
