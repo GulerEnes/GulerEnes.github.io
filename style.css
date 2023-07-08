@@ -1,0 +1,41 @@
+.countdown-container {
+	text-align: center;
+	margin-top: 200px;
+}
+
+#countdown {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.time {
+	margin: 0 10px;
+	padding: 20px;
+	background-color: #333;
+	color: #fff;
+	font-size: 48px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+	.countdown-container {
+		margin-top: 100px;
+	}
+
+	.time {
+		margin: 0 5px;
+		padding: 10px;
+		font-size: 24px;
+	}
+
+	h1 {
+		font-size: 18px;
+	}
+}
