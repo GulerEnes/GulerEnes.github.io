@@ -23,7 +23,7 @@ drawButton.addEventListener("click", () => {
     const randomIndex = Math.floor(Math.random() * participants.length);
     const winner = participants.splice(randomIndex, 1)[0];
     const listItem = document.createElement("li");
-    listItem.textContent = `${winner} - Sıra: ${beginningLength - participants.length}`;
+    listItem.textContent = `Sıra: ${beginningLength - participants.length} - ${winner} `;
     resultList.appendChild(listItem);
   } else {
     drawButton.disabled = true;
