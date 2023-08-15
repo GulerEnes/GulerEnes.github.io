@@ -1,18 +1,18 @@
 const participants = [
-  "Katılımcı 1", 
-  "Katılımcı 2", 
-  "Katılımcı 3", 
-  "Katılımcı 4", 
-  "Katılımcı 5", 
-  "Katılımcı 6", 
-  "Katılımcı 7", 
-  "Katılımcı 8", 
-  "Katılımcı 9", 
-  "Katılımcı 10", 
-  "Katılımcı 11", 
-  "Katılımcı 12",
-  "Katılımcı 13", 
-  "Katılımcı 14"
+  "Enes", 
+  "Cihat", 
+  "Ali Fuat", 
+  "Baran ", 
+  "Doğukan", 
+  "Fatih", 
+  "Harun", 
+  "Hüseyin", 
+  "Musa", 
+  "Emre", 
+  "Halil", 
+  "+90 507 509 05 90",
+  "+90 507 584 74 94", 
+  "+90 546 907 32 66"
 ];
 
 const drawButton = document.getElementById("drawButton");
