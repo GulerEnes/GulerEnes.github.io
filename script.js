@@ -1,35 +1,31 @@
-// Hedeflenen tarih ve saat
-var hedefTarih = new Date("2023-07-15T23:59:59").getTime();
+const participants = [
+  "Katılımcı 1", 
+  "Katılımcı 2", 
+  "Katılımcı 3", 
+  "Katılımcı 4", 
+  "Katılımcı 5", 
+  "Katılımcı 6", 
+  "Katılımcı 7", 
+  "Katılımcı 8", 
+  "Katılımcı 9", 
+  "Katılımcı 10", 
+  "Katılımcı 11", 
+  "Katılımcı 12",
+  "Katılımcı 13", 
+  "Katılımcı 14"
+];
 
-// Her 1 saniyede bir süreyi güncelleyen fonksiyon
-function updateCountdown() {
-  // Şu anki tarih ve saat
-  var suAn = new Date().getTime();
-
-  // Kalan süre hesaplama
-  var kalanSure = hedefTarih - suAn;
-
-  // Gün, saat, dakika ve saniye hesaplama
-  var gunler = Math.floor(kalanSure / (1000 * 60 * 60 * 24));
-  var saatler = Math.floor((kalanSure % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var dakikalar = Math.floor((kalanSure % (1000 * 60 * 60)) / (1000 * 60));
-  var saniyeler = Math.floor((kalanSure % (1000 * 60)) / 1000);
-
-  // Sayaç HTML elementini güncelleme
-  document.getElementById("days").innerHTML = gunler + " day(s)";
-  document.getElementById("hours").innerHTML = saatler + " hour(s)";
-  document.getElementById("minutes").innerHTML = dakikalar + " minute(s)";
-  document.getElementById("seconds").innerHTML = saniyeler + " second(s)";
-
-  // Hedef tarihe ulaşıldığında sayaç durdurma
-  if (kalanSure < 0) {
-    clearInterval(countdown);
-    document.getElementById("countdown").innerHTML = "Time is up!";
+const drawButton = document.getElementById("drawButton");
+const resultList = document.getElementById("resultList");
+const beginningLength = participants.length;
+drawButton.addEventListener("click", () => {
+  if (participants.length > 0) {
+    const randomIndex = Math.floor(Math.random() * participants.length);
+    const winner = participants.splice(randomIndex, 1)[0];
+    const listItem = document.createElement("li");
+    listItem.textContent = `${winner} - Sıra: ${beginningLength - participants.length}`;
+    resultList.appendChild(listItem);
+  } else {
+    drawButton.disabled = true;
   }
-}
-
-// İlk çalıştırma
-updateCountdown();
-
-// Her 1 saniyede bir sayaç güncelleme
-var countdown = setInterval(updateCountdown, 1000);
+});
